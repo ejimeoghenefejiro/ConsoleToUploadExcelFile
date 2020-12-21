@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DB_GeneralGeographyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="physfact_rev">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="wbcode" Type="varchar" MaxLength="1000" />
+          <Property Name="country" Type="varchar" MaxLength="1000" />
+          <Property Name="areakm2" Type="varchar" MaxLength="1000" />
+          <Property Name="cen_lat" Type="varchar" MaxLength="1000" />
+          <Property Name="cen_lon" Type="varchar" MaxLength="1000" />
+          <Property Name="elev" Type="varchar" MaxLength="1000" />
+          <Property Name="distcr" Type="varchar" MaxLength="1000" />
+          <Property Name="distc" Type="varchar" MaxLength="1000" />
+          <Property Name="distr" Type="varchar" MaxLength="1000" />
+          <Property Name="tropicar" Type="varchar" MaxLength="1000" />
+          <Property Name="troppop" Type="varchar" MaxLength="1000" />
+          <Property Name="lc100km" Type="varchar" MaxLength="1000" />
+          <Property Name="lcr100km" Type="varchar" MaxLength="1000" />
+          <Property Name="pop95" Type="varchar" MaxLength="1000" />
+          <Property Name="pdenpavg" Type="varchar" MaxLength="1000" />
+          <Property Name="pop100km" Type="varchar" MaxLength="1000" />
+          <Property Name="pop100cr" Type="varchar" MaxLength="1000" />
+          <Property Name="cen_c" Type="varchar" MaxLength="1000" />
+          <Property Name="cen_cr" Type="varchar" MaxLength="1000" />
+        </EntityType>
+        <EntityContainer Name="DB_GeneralGeographyModelStoreContainer">
+          <EntitySet Name="physfact_rev" EntityType="Self.physfact_rev" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB_GeneralGeographyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="physfact_rev">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="wbcode" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="country" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="areakm2" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="cen_lat" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="cen_lon" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="elev" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="distcr" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="distc" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="distr" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="tropicar" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="troppop" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="lc100km" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="lcr100km" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="pop95" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="pdenpavg" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="pop100km" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="pop100cr" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="cen_c" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="cen_cr" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="DB_GeneralGeographyEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="physfact_rev" EntityType="Self.physfact_rev" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB_GeneralGeographyModelStoreContainer" CdmEntityContainer="DB_GeneralGeographyEntities">
+          <EntitySetMapping Name="physfact_rev">
+            <EntityTypeMapping TypeName="DB_GeneralGeographyModel.physfact_rev">
+              <MappingFragment StoreEntitySet="physfact_rev">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="wbcode" ColumnName="wbcode" />
+                <ScalarProperty Name="country" ColumnName="country" />
+                <ScalarProperty Name="areakm2" ColumnName="areakm2" />
+                <ScalarProperty Name="cen_lat" ColumnName="cen_lat" />
+                <ScalarProperty Name="cen_lon" ColumnName="cen_lon" />
+                <ScalarProperty Name="elev" ColumnName="elev" />
+                <ScalarProperty Name="distcr" ColumnName="distcr" />
+                <ScalarProperty Name="distc" ColumnName="distc" />
+                <ScalarProperty Name="distr" ColumnName="distr" />
+                <ScalarProperty Name="tropicar" ColumnName="tropicar" />
+                <ScalarProperty Name="troppop" ColumnName="troppop" />
+                <ScalarProperty Name="lc100km" ColumnName="lc100km" />
+                <ScalarProperty Name="lcr100km" ColumnName="lcr100km" />
+                <ScalarProperty Name="pop95" ColumnName="pop95" />
+                <ScalarProperty Name="pdenpavg" ColumnName="pdenpavg" />
+                <ScalarProperty Name="pop100km" ColumnName="pop100km" />
+                <ScalarProperty Name="pop100cr" ColumnName="pop100cr" />
+                <ScalarProperty Name="cen_c" ColumnName="cen_c" />
+                <ScalarProperty Name="cen_cr" ColumnName="cen_cr" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_GeneralGeographyModelStoreContainer" CdmEntityContainer="DB_GeneralGeographyEntities">
+    <EntitySetMapping Name="physfact_rev">
+      <EntityTypeMapping TypeName="DB_GeneralGeographyModel.physfact_rev">
+        <MappingFragment StoreEntitySet="physfact_rev">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="wbcode" ColumnName="wbcode" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="areakm2" ColumnName="areakm2" />
+          <ScalarProperty Name="cen_lat" ColumnName="cen_lat" />
+          <ScalarProperty Name="cen_lon" ColumnName="cen_lon" />
+          <ScalarProperty Name="elev" ColumnName="elev" />
+          <ScalarProperty Name="distcr" ColumnName="distcr" />
+          <ScalarProperty Name="distc" ColumnName="distc" />
+          <ScalarProperty Name="distr" ColumnName="distr" />
+          <ScalarProperty Name="tropicar" ColumnName="tropicar" />
+          <ScalarProperty Name="troppop" ColumnName="troppop" />
+          <ScalarProperty Name="lc100km" ColumnName="lc100km" />
+          <ScalarProperty Name="lcr100km" ColumnName="lcr100km" />
+          <ScalarProperty Name="pop95" ColumnName="pop95" />
+          <ScalarProperty Name="pdenpavg" ColumnName="pdenpavg" />
+          <ScalarProperty Name="pop100km" ColumnName="pop100km" />
+          <ScalarProperty Name="pop100cr" ColumnName="pop100cr" />
+          <ScalarProperty Name="cen_c" ColumnName="cen_c" />
+          <ScalarProperty Name="cen_cr" ColumnName="cen_cr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
