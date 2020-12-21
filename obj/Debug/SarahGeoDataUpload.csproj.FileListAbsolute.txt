@@ -15,3 +15,17 @@ C:\Users\Cyberspace\source\repos\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload
 C:\Users\Cyberspace\source\repos\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.csproj.CopyComplete
 C:\Users\Cyberspace\source\repos\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.exe
 C:\Users\Cyberspace\source\repos\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.pdb
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\SarahGeoDataUpload.exe.config
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\SarahGeoDataUpload.exe
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\SarahGeoDataUpload.pdb
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\EntityFramework.dll
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\EntityFramework.xml
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\Excel.pdb
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\bin\Debug\ExcelDataReader.xml
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.csprojAssemblyReference.cache
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.csproj.CoreCompileInputs.cache
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.csproj.CopyComplete
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.exe
+C:\Users\Cyberspace\Desktop\Sarah App\SarahGeoDataUpload\obj\Debug\SarahGeoDataUpload.pdb

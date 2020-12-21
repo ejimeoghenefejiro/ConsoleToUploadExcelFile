@@ -94,6 +94,7 @@
       <DependentUpon>DataBaseConnection.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="TheSampleFileforUploadisKeptHere\MyExcelFile.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataBaseConnection.Context.tt">
